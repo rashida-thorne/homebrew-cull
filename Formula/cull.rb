@@ -1,26 +1,26 @@
 class Cull < Formula
   desc "jq for HTML: select with CSS selectors, shape into JSON, CSV, or Markdown"
   homepage "https://github.com/rashida-thorne/cull"
-  version "0.9.0"
+  version "0.10.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/rashida-thorne/cull/releases/download/v0.9.0/cull-v0.9.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ca55fecd49c80bbf72b5ce62cfb507d7ba5ca172a2567dd40bfce05dc2b9cd48"
+      url "https://github.com/rashida-thorne/cull/releases/download/v0.10.0/cull-v0.10.0-aarch64-apple-darwin.tar.gz"
+      sha256 "ee40db79ccd59fb9536b47f2a8179cd61453cbda9a432a736abd48cf207df6a7"
     else
-      url "https://github.com/rashida-thorne/cull/releases/download/v0.9.0/cull-v0.9.0-x86_64-apple-darwin.tar.gz"
-      sha256 "97409e1c128b9d73996a50c1dcfb8c88a4267b2c8ea2f025406c7fd2909d6e7a"
+      url "https://github.com/rashida-thorne/cull/releases/download/v0.10.0/cull-v0.10.0-x86_64-apple-darwin.tar.gz"
+      sha256 "9643f9a53ce62cf781db592a6d29e8008491e8b75be4d117c866067b4d7a42a3"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/rashida-thorne/cull/releases/download/v0.9.0/cull-v0.9.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "af60f4cb2265c57c5a4696bd4b9e2089ed88650d45019059e188e2a59f585195"
+      url "https://github.com/rashida-thorne/cull/releases/download/v0.10.0/cull-v0.10.0-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "08b2935d034ec901e7d949cd1ade9d797d4924fa0b9b0502c989406194da82cd"
     else
-      url "https://github.com/rashida-thorne/cull/releases/download/v0.9.0/cull-v0.9.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "21a694bbece666e6466ee034275b996dbb61a51946c1406da5c69757e2843391"
+      url "https://github.com/rashida-thorne/cull/releases/download/v0.10.0/cull-v0.10.0-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "9d674008ea8fabd99f7978a69cffc0c9cd5bc6e7533564944ab1a175e8db7f1b"
     end
   end
 
